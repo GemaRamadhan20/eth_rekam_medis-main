@@ -50,7 +50,6 @@ contract RekamMedis {
         newRecord.diagnosis = _diagnosis;
         newRecord.gender = _gender; // Set the gender
 
-        emit RecordCreated(msg.sender, _name, _dob, _diagnosis, _gender); // Updated the event to include gender
     }
 
     function updateRecord(
